@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(250, 241, 230);
+    font-family: 'DynaPuff';
+    background-image: url("pics/wallpaper1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabeçalho{
+    background-color: rgb(182, 37, 81);
+    border: 1px solid;
+    border-radius: 25px;  
+    width: 100%;   
+    padding: 2px;
+    display: flex;
+    justify-content:end;
+    margin: 0 auto;
+}
+
+a{
+    color: rgb(255, 252, 249);
+    text-decoration: none; 
+    font-size: 18px;
+    margin-inline: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+a:hover{
+    opacity: .6;
+}
+
+.caixa{
+    width: 100%;
+    margin: 16px auto;
+    margin-bottom: 120px;
+    padding: 30px;   
+    padding-bottom: 40px;
+    max-width: 600px;
+    box-sizing: border-box; 
+    display: flex;
+    border: 2px solid rgb(182, 37, 81);
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    color: rgb(182, 37, 81);
+    margin: 0 auto;
+    padding: 70px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .spnQtd {
+    text-align: end;
+  }
+  
+  .answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(182, 37, 81);
+    color: white;
+  }
+  
+  .finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .finish button {
+    margin-top: 90px;
+    text-align: center;
+  }
+
+
+.rodapé{
+    background-color: rgb(182, 37, 81);
+    border: 1px solid;
+    width: 100%;       
+    height: 42px;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    box-sizing: border-box; 
+    color: rgb(255, 252, 249);
+    font-size: 13px;
+}
+
+
