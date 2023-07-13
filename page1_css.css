@@ -30,6 +30,17 @@ a:hover{
     opacity: .6;
 }
 
+.logo{
+    max-width: 30px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 30px;
+    height: 100%;
+}
+
+.logo:hover{
+    opacity: .6;  /*logo some levemente ao passar o mouse*/
+}
+
 .caixa{
     border-radius: 25px; 
     width: 100%;
@@ -89,6 +100,7 @@ a:hover{
     height: fit-content;
     bottom: 0;
     position: fixed;
+    padding: 10px;
 }
 
 .rodapé_texto{
@@ -99,16 +111,6 @@ a:hover{
     margin: 0 10px;
 }
 
-.logo{
-    max-width: 30px;
-    width: 100%;    /*responsividade das imagens*/
-    max-height: 30px;
-    height: 100%;
-}
-
-.logo:hover{
-    opacity: .6;  /*logo some levemente ao passar o mouse*/
-}
 
 
 
