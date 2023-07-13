@@ -102,7 +102,19 @@ body{
     justify-content: center;
     box-sizing: border-box; 
     color: rgb(255, 252, 249);
-    font-size: 13px;
 }
+
+.rodapé_texto{
+    font-size: 13px;
+    text-decoration: none; 
+    margin-inline: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.rodapé_texto:hover{
+    opacity: .6;
+}
+
 
 
