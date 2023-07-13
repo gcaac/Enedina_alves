@@ -92,17 +92,35 @@ a:hover{
 
 .rodapé{
     background-color: rgb(182, 37, 81);
-    border: 1px solid;
     width: 100%;       
-    height: 42px;
+    height: fit-content;
     padding: 10px;
     display: flex; 
+    flex-direction: row;
     justify-content: center;
-    box-sizing: border-box; 
     color: rgb(255, 252, 249);
-    font-size: 13px;
-    position:absolute;
-    bottom:0;
+    bottom: 0;
+    position: fixed;
 }
+
+.rodapé_texto{
+    font-size: 13px;
+    text-decoration: none; 
+    margin-inline: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.logo{
+    max-width: 30px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 30px;
+    height: 100%;
+}
+
+.logo:hover{
+    opacity: .6;  /*logo some levemente ao passar o mouse*/
+}
+
 
 
