@@ -30,6 +30,17 @@ body{
     opacity: .6;
 }
 
+.logo{
+    max-width: 30px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 30px;
+    height: 100%;
+}
+
+.logo:hover{
+    opacity: .6;  /*logo some levemente ao passar o mouse*/
+}
+
 .caixa{
     border-radius: 25px; 
     width: 100%;
@@ -83,35 +94,25 @@ body{
 
 .rodapé{
     background-color: rgb(182, 37, 81);
-    width: 100%;       
-    height: fit-content;
-    padding: 10px;
+    width: 100%;      
     display: flex; 
     flex-direction: row;
     justify-content: center;
-    color: rgb(255, 252, 249);
+    height: fit-content;
     bottom: 0;
     position: fixed;
+    padding: 10px;
 }
 
 .rodapé_texto{
     font-size: 13px;
+    color: rgb(255, 252, 249);
     text-decoration: none; 
-    margin-inline: 2%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    letter-spacing: 2px;
+    margin: 0 10px;
 }
 
-.logo{
-    max-width: 30px;
-    width: 100%;    /*responsividade das imagens*/
-    max-height: 30px;
-    height: 100%;
-}
 
-.logo:hover{
-    opacity: .6;  /*logo some levemente ao passar o mouse*/
-}
 
 
 
