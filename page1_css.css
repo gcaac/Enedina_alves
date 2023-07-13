@@ -95,10 +95,8 @@ a:hover{
     font-size: 13px;
     color: rgb(255, 252, 249);
     text-decoration: none; 
-    margin-inline: 2%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
     letter-spacing: 2px;
+    margin: 0 10px;
 }
 
 .logo{
