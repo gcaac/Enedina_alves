@@ -89,9 +89,28 @@ a:hover{
     flex-direction: row;
     justify-content: center;
     color: rgb(255, 252, 249);
-    font-size: 13px;
     bottom: 0;
     position: fixed;
 }
+
+.rodapé_texto{
+    font-size: 13px;
+    text-decoration: none; 
+    margin-inline: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.logo{
+    max-width: 30px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 30px;
+    height: 100%;
+}
+
+.logo:hover{
+    opacity: .6;  /*logo some levemente ao passar o mouse*/
+}
+
 
 
